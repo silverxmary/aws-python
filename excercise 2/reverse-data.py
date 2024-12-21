@@ -18,11 +18,11 @@ try:
     # Step 3: Write the reversed content to a new file
     file_path_2 = os.path.join(script_dir, "reversed_data.txt")
 
-    with open(file_path_2, "w") as reversed_file:
-        reversed_file.write(reversed_data)
-        data2 = reversed_file.read()  # Read the entire file content
+    #with open(file_path_2, "w") as reversed_file:
+    #    reversed_file.write(reversed_data)
+    #    data2 = file.read()  # Read the entire file content
     
-    print(data2)
+    #print(data2)
     
     print("The content has been reversed and written to 'reversed_data.txt'.")
 except FileNotFoundError:
